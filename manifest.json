@@ -1,23 +1,24 @@
 {
-    "manifest_version": 3,
-    "name": "Tab Manager",
-    "version": "1.0",
-    "permissions": ["tabs", "activeTab"],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon_16.png",
-        "48": "icon_48.png",
-        "128": "icon_128.png"
-      }
-    },
-    "icons": {
-      "16": "icon_16.png",
-      "48": "icon_48.png",
-      "128": "icon_128.png"
+  "manifest_version": 3,
+  "name": "Tab Manager",
+  "version": "1.0.0",
+  "description": "Tab Manager is the ultimate tool for managing your open tabs in Microsoft Edge. Easily view all your open tabs in a sortable table format. Sort your tabs by URL or title to quickly find what you're looking for. Select multiple tabs with checkboxes and close them all at once, or reset your selections with a single click. Stay organized and improve your browsing efficiency with Tab Manager's intuitive and user-friendly interface.",
+  "short_description": "Easily manage your open tabs with a sortable table. Close selected tabs or reset selections with a click!",
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
     }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
   }
-  
+}
