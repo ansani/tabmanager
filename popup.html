@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tab Manager</title>
+  <style>
+    /* Basic body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+    }
+    
+    /* Table styling to ensure full width and proper layout */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    /* Styling for table header and cells */
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      word-wrap: break-word; /* Ensures long words/URLs wrap inside the cell */
+    }
+
+    /* Styling for the header cells */
+    th {
+      cursor: pointer; /* Indicates that the header is clickable */
+      background-color: #f1f1f1;
+      position: sticky; /* Makes the header sticky */
+      top: 0; /* Sticks the header to the top */
+      z-index: 1; /* Ensures the header stays on top of other content */
+    }
+
+    /* Button styling */
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Table to display tabs information -->
+  <table id="tabsTable">
+    <thead>
+      <tr>
+        <th>ID</th> <!-- Column for tab ID -->
+        <th>Check</th> <!-- Column for checkboxes to select tabs -->
+        <th>URL</th> <!-- Column for tab URLs -->
+        <th>Title</th> <!-- Column for tab titles -->
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- Buttons for closing tabs and resetting checkboxes -->
+  <button id="closeTabsBtn">CLOSE TABS</button>
+  <button id="resetBtn">RESET</button>
+  
+  <!-- Linking the JavaScript file for functionality -->
+  <script src="popup.js"></script>
+</body>
+</html>
