@@ -10,7 +10,7 @@ Tab Manager is a Microsoft Edge extension that displays all open tabs in a new w
 - Buttons to close selected tabs or reset selections.
 - Sticky table header for easy navigation.
 
-## Installation
+## Build from sources
 
 1. **Clone or Download the Repository:**
     ```sh
@@ -26,6 +26,11 @@ Tab Manager is a Microsoft Edge extension that displays all open tabs in a new w
 4. **Load Unpacked Extension:**
     - Click the "Load unpacked" button and select the directory where you cloned or downloaded the repository.
 
+## Install from Microsoft Edge Add-on Store
+
+You can also install the extension directly from the Microsoft Edge Add-on Store using the following link:
+[Tab Manager on Microsoft Edge Add-on Store](https://microsoftedge.microsoft.com/addons/detail/tab-manager/afomifjhbdelfdkjnohkoodjnoneidgf)
+
 ## Files
 
 - **manifest.json:** Contains the extension metadata and permissions.
@@ -37,7 +42,7 @@ Tab Manager is a Microsoft Edge extension that displays all open tabs in a new w
 ## Usage
 
 1. Click on the Tab Manager icon in the toolbar.
-2. A popup window will open displaying all open tabs.
+2. A popup window will open, displaying all open tabs.
 3. Use the checkboxes to select tabs.
 4. Click "CLOSE TABS" to close selected tabs.
 5. Click "RESET" to uncheck all checkboxes.
