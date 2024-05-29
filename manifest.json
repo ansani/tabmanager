@@ -1,9 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Tab Manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage your open tabs easily. Sort by URL or title, close selected tabs, and reset selections quickly!",
-  "short_description": "Easily manage your open tabs with a sortable table. Close selected tabs or reset selections with a click!",
   "permissions": ["tabs", "activeTab"],
   "background": {
     "service_worker": "background.js"
@@ -11,14 +10,14 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon_16.png",
-      "48": "icon_48.png",
-      "128": "icon_128.png"
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
     }
   },
   "icons": {
-    "16": "icon_16.png",
-    "48": "icon_48.png",
-    "128": "icon_128.png"
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
   }
 }
