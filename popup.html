@@ -50,23 +50,25 @@
   </style>
 </head>
 <body>
+<!-- Buttons for closing tabs and resetting checkboxes -->
+<div id="buttonContainer">
+  <button id="closeTabsBtn">CLOSE TABS</button>
+  <button id="resetBtn">RESET</button>
+</div>
+
 <!-- Table to display tabs information -->
 <table id="tabsTable">
   <thead>
   <tr>
-    <th>Icon</th> <!-- Column for tab favicons -->
-    <th>ID</th> <!-- Column for tab ID -->
     <th>Check</th> <!-- Column for checkboxes to select tabs -->
+    <th>ID</th> <!-- Column for tab ID -->
+    <th>Icon</th> <!-- Column for tab favicons -->
     <th>URL</th> <!-- Column for tab URLs -->
     <th>Title</th> <!-- Column for tab titles -->
   </tr>
   </thead>
   <tbody></tbody>
 </table>
-
-<!-- Buttons for closing tabs and resetting checkboxes -->
-<button id="closeTabsBtn">CLOSE TABS</button>
-<button id="resetBtn">RESET</button>
 
 <!-- Linking the JavaScript file for functionality -->
 <script src="popup.js"></script>
