@@ -13,7 +13,7 @@
       width: 100%;
       height: 100%;
     }
-    
+
     /* Table styling to ensure full width and proper layout */
     table {
       width: 100%;
@@ -41,27 +41,34 @@
     button {
       margin-top: 10px;
     }
+
+    /* Styling for the favicon images */
+    .tab-icon {
+      width: 32px;
+      height: 32px;
+    }
   </style>
 </head>
 <body>
-  <!-- Table to display tabs information -->
-  <table id="tabsTable">
-    <thead>
-      <tr>
-        <th>ID</th> <!-- Column for tab ID -->
-        <th>Check</th> <!-- Column for checkboxes to select tabs -->
-        <th>URL</th> <!-- Column for tab URLs -->
-        <th>Title</th> <!-- Column for tab titles -->
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+<!-- Table to display tabs information -->
+<table id="tabsTable">
+  <thead>
+  <tr>
+    <th>Icon</th> <!-- Column for tab favicons -->
+    <th>ID</th> <!-- Column for tab ID -->
+    <th>Check</th> <!-- Column for checkboxes to select tabs -->
+    <th>URL</th> <!-- Column for tab URLs -->
+    <th>Title</th> <!-- Column for tab titles -->
+  </tr>
+  </thead>
+  <tbody></tbody>
+</table>
 
-  <!-- Buttons for closing tabs and resetting checkboxes -->
-  <button id="closeTabsBtn">CLOSE TABS</button>
-  <button id="resetBtn">RESET</button>
-  
-  <!-- Linking the JavaScript file for functionality -->
-  <script src="popup.js"></script>
+<!-- Buttons for closing tabs and resetting checkboxes -->
+<button id="closeTabsBtn">CLOSE TABS</button>
+<button id="resetBtn">RESET</button>
+
+<!-- Linking the JavaScript file for functionality -->
+<script src="popup.js"></script>
 </body>
 </html>
