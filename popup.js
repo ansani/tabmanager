@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tabs.forEach((tab, index) => {
                 let row = document.createElement('tr');
                 row.innerHTML = `
-          <td><img src="${tab.favIconUrl || 'default_icon.png'}" class="tab-icon" width="32" height="32"></td>
+          <td><img src="${tab.favIconUrl || 'default_icon.png'}" class="tab-icon" width="32" height="32" alt="${tab.title}"></td>
           <td>${index + 1}</td>
           <td><input type="checkbox" data-tab-id="${tab.id}"></td>
           <td>${tab.url}</td>
