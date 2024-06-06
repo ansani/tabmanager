@@ -1,6 +1,12 @@
 # Tab Manager
 
-Tab Manager is a Microsoft Edge extension that displays all open tabs in a new window, allowing users to manage their tabs easily. Users can view tab details, sort by URL or title, close selected tabs, and reset selections.
+[![Latest Version](https://img.shields.io/github/v/release/ansani/tabmanager)](https://github.com/ansani/tabmanager/releases)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/ansani/tabmanager/main.yml)](https://github.com/ansani/tabmanager/actions)
+[![License](https://img.shields.io/github/license/ansani/tabmanager)](https://github.com/ansani/tabmanager/blob/main/LICENSE)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fbjofhflomkbgjolioladdpooamcnpfp)](https://chromewebstore.google.com/detail/tab-manager/fbjofhflomkbgjolioladdpooamcnpfp?authuser=0&hl=it)
+[![Microsoft Edge Add-ons](https://img.shields.io/badge/Edge%20Store-Available-blue)](https://microsoftedge.microsoft.com/addons/detail/tab-manager/cnfkkkfdldbfmmilklplncoknbkanepf)
+
+Tab Manager is a browser extension that displays all open tabs in a new window, allowing users to manage their tabs easily. Users can view tab details, sort by URL or title, close selected tabs, and reset selections.
 
 ## Features
 
@@ -10,26 +16,31 @@ Tab Manager is a Microsoft Edge extension that displays all open tabs in a new w
 - Buttons to close selected tabs or reset selections.
 - Sticky table header for easy navigation.
 
-## Build from sources
+## Manual Installation
 
-1. **Clone or Download the Repository:**
+1. Clone this repository or download the source code.
     ```sh
     git clone https://github.com/ansani/tabmanager.git
     ```
+2. Open Chrome or Edge and navigate to the extensions page (`chrome://extensions/` for Chrome or `edge://extensions/` for Edge).
 
-2. **Open Microsoft Edge and go to the Extensions page:**
-    - Type `edge://extensions/` in the address bar.
+3. Enable "Developer mode" in the top right corner.
 
-3. **Enable Developer Mode:**
-    - Toggle the "Developer mode" switch at the bottom left of the Extensions page.
+4. Click "Load unpacked" and select the directory where the source code is located.
 
-4. **Load Unpacked Extension:**
-    - Click the "Load unpacked" button and select the directory where you cloned or downloaded the repository.
+## Installation
 
-## Install from Microsoft Edge Add-on Store
+### Chrome Web Store
 
-You can also install the extension directly from the Microsoft Edge Add-on Store using the following link:
-[Tab Manager on Microsoft Edge Add-on Store](https://microsoftedge.microsoft.com/addons/detail/tab-manager/afomifjhbdelfdkjnohkoodjnoneidgf)
+You can install TabManager directly from the Chrome Web Store using the following link:
+[Tab Manager - Chrome Web Store](https://chromewebstore.google.com/detail/tab-manager/fbjofhflomkbgjolioladdpooamcnpfp?authuser=0&hl=it)
+
+
+### Microsoft Edge Add-ons
+
+You can also install TabManager from the Microsoft Edge Add-ons store:
+[Tab Manager - Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/tab-manager/cnfkkkfdldbfmmilklplncoknbkanepf)
+
 
 ## Files
 
@@ -51,9 +62,11 @@ You can also install the extension directly from the Microsoft Edge Add-on Store
 
 Feel free to submit issues or pull requests for improvements and bug fixes.
 
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes.
+4. Push your branch and create a pull request.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-This `README.md` file provides all necessary information about the "Tab Manager" extension, including its features, installation instructions, file contents, and usage guidelines. You can customize the repository URL and other details as needed.
